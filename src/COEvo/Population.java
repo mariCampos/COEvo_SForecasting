@@ -1,7 +1,7 @@
 package COEvo;
 
 public class Population {
-	private Individual[] individuos;
+	private Individual[] individuos = new Individual[Parameters.SIZE_POP];
 
 	public Individual[] getIndividuos() {
 		return individuos;
