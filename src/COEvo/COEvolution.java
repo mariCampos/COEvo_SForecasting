@@ -1,38 +1,55 @@
 package COEvo;
 
+import java.util.Random;
+
 public class COEvolution {
 	
-	Population P1;
-	Population P2;
+	PopulationLag P1;
+	PopulationLag P2;
 	
 	public COEvolution(){
 		
 	}
 	
-	public void Initialize(){
+	public void initialize(){
 		
 	}
-	public void Selection(Population p){
+	public void Selection(PopulationLag p, double bestFitness){
+		PopulationLag newPopulation = new PopulationLag();
 		
-	}
-	
-	public void Mutation(Population p){
+		Random rand = new Random();
 		
-	}
-	
-	public void Crossover(Population p){
 		
 	}
 	
-	public void FitnessFunction(){
+	public double evaluateIndividual(PopulationLag p){
+		double fitness = 0.0;
+		
+		//depende de como vamos avaliar o fitness
+		return fitness;
+	}
+	
+	public void mutation(PopulationLag p){
 		
 	}
 	
-	public void CoevolutionCooperacao(){
+	public void crossover(PopulationLag p){
 		
 	}
 	
-	public void CoevolutionCompetion(){
+	public void fitnessFunction(){
+		
+	}
+	
+	public void recombinePopulation(PopulationLag p){
+		
+	}
+	
+	public void coevolutionCooperacao(){
+		
+	}
+	
+	public void coevolutionCompetion(){
 		
 	}
 }

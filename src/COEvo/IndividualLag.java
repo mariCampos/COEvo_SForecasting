@@ -12,7 +12,7 @@ package COEvo;
  *      - makeRandom: generates a random dna
  * @author Numa Trezzini
  */
-public class Individual {
+public class IndividualLag {
 	private double[][] dna;
 	private double fitness;
 	
